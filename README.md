@@ -8,3 +8,16 @@ I have tried to implement compatibility with several Linux distributions includi
 
 
 The guide is made near-automatic using ip address for Virtualbox virtual machines
+
+
+## Install Sever on Linux
+
+```
+bash <(curl -Ls https://raw.githubusercontent.com/diman6ik/AISOR/refs/heads/main/AISOR-SERVER.sh)
+```
+
+## Install Client on Windows
+```
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/diman6ik/AISOR/refs/heads/main/AISOR-CLIENT.bat" -OutFile "AISOR-CLIENT.bat"
+Start-Process "AISOR-CLIENT.bat"
+```
